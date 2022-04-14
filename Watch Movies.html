@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Movies</title>
+    <style>
+        hr{width: 50%;}
+        body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(209, 228, 245);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000000;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/Doraemon.html">Doraemon</a>
+        <a href="/Story.html">Story</a>
+        <a href="/Characters.html">Characters</a>
+        <a href="/Movies list.html">Movies List</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    
+    <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+    <header>
+        <center>
+            <img src="https://www.pngitem.com/pimgs/m/531-5313796_doraemon-logo-png-transparent-png.png" alt="Doraemon" width="500">
+         </center>
+    </header>
+    <main style=" text-align: center;">
+<h1>Watch Movies</h1>
+<pre>
+    <div style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-style: oblique;">
+        <video width="1000" controls>
+            <source src="/doraemon movie three visionary swordmem.mp4" type="video/mp4">
+          Doraemon: Three Visionary Swordmen
+          </video>
+          <h2>Doraemon: Three Visionary Swordmen
+              Audio: Hindi
+          </h2>
+    </div>
+    <hr>
+    <div style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-style: oblique;">
+        <video width="1000" controls>
+            <source src="/Doraemon Movie the birth of Doraemon.mp4" type="video/mp4">
+          Doraemon: The Birth of Doraemon
+          </video>
+          <h2>Doraemon: The Birth of Doraemon
+              Audio: Hindi
+          </h2>
+    </div>
+</pre>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
